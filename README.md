@@ -1,8 +1,6 @@
 # sergeygerbek/aqnsible-dockerized
 - [Introduction](#introduction)
-- [Debug](#debug)
-    - [System Shell](#system-shell)
-- [Exposed Ports](#exposed-ports)
+- [Running](#running)
 
 # Introduction
 Dockerfile for creating basic Ansible container (without plugins).
