@@ -19,7 +19,7 @@ LABEL maintainer="sergey.gerbek@gmail.com" \
     org.label-schema.vcs-url="https://github.com/sergey.gerbek/ansible_dockerized" \
     org.label-schema.vcs-ref=$VCS_REF \
     org.label-schema.build-date=$BUILD_DATE \
-    org.label-schema.docker.cmd="docker run --rm -it -v $(pwd):/ansible -v ~/.ssh/id_rsa:/root/id_rsa sergeygerbek/ansible:${ANSIBLE_VERSION_ARG}-ubuntu-20.04"
+    org.label-schema.docker.cmd="docker run --rm -it -v $(pwd):/ansible -v ~/.ssh/id_rsa:/root/id_rsa sergeygerbek/ansible-${ANSIBLE_VERSION_ARG}-ubuntu-20.04"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y gnupg2 python python-dev python3-pip python3-virtualenv && \
