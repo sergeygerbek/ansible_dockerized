@@ -1,4 +1,4 @@
-# sergeygerbek/aqnsible-dockerized
+# sergeygerbek/ansible_dockerized
 - [Introduction](#introduction)
 - [Running](#running)
 
