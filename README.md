@@ -3,7 +3,7 @@
 - [Running](#running)
 
 # Introduction
-Dockerfile for creating basic Ansible container (without plugins).
+Dockerfile for creating basic Ansible container (without plugins)
 
 # Running
 ```bash
